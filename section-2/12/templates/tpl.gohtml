@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+</head>
+<body>
+<ul>
+{{range .}}
+<li>{{uc .Name}} - {{uc .Motto}}</li>
+<li>{{ft .Name}} - {{ft .Motto}}</li>
+{{end}}
+</ul>
+</body>
+</html>

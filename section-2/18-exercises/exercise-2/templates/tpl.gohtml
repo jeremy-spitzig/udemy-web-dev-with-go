@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+{{range $index, $element := .}}
+<h2>Hotel {{$index}}</h2>
+<p>{{$element.Name}}</p>
+<p>{{$element.Address}}</p>
+<p>{{$element.City}}</p>
+<p>{{$element.Zip}}</p>
+<p>{{$element.Region}}</p>
+{{end}}
+
+</body>
+</html>
