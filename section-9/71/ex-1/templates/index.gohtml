@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>INDEX</title>
+</head>
+<body>
+
+{{if . }}
+User Name: {{.UserName}}<br>
+First: {{.First}}<br>
+Last: {{.Last}}<br>
+<h2>Go to <a href="/bar">the bar</a></h2><br>
+{{else}}
+<h2><a href="/login">Log In</a></h2><br>
+<h2><a href="/signup">Sign Up</a></h2><br>
+{{end}}
+</body>
