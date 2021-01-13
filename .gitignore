@@ -1,1 +1,7 @@
 __debug_bin
+
+# user uploads
+section-7/56/ex-2/user/*
+
+# ensure the user upload folder exists in git
+!section-7/56/ex-2/user/.gitkeep
