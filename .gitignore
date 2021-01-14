@@ -4,7 +4,7 @@ __debug_bin
 section-7/56/ex-2/user/*
 
 # ensure the user upload folder exists in git
-!section-7/56/ex-2/user/.gitkeep
+.gitkeep
 
 # set up local environment variables
 # Must define
@@ -14,3 +14,6 @@ section-7/56/ex-2/user/*
 # DB_PORT
 # DB_SCHEMA
 env.sh
+
+cert.pem
+key.pem
