@@ -5,3 +5,12 @@ section-7/56/ex-2/user/*
 
 # ensure the user upload folder exists in git
 !section-7/56/ex-2/user/.gitkeep
+
+# set up local environment variables
+# Must define
+# DB_USERNAME
+# DB_PASSWORD
+# DB_HOST
+# DB_PORT
+# DB_SCHEMA
+env.sh
